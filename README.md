@@ -1,11 +1,11 @@
 # PDFInsight
 
-PDFInsight is a tool that extracts text from PDF documents and summarizes the content using the ChatGPT API. The summarized content is displayed in a user-friendly interface built with Streamlit.
+PDFInsight is a PDF summarization tool that leverages advanced natural language processing (NLP) models to generate concise summaries of lengthy PDF documents. The tool is designed to help users quickly understand the key points of a document without having to read through the entire text.
 
 ## Features
 
 - Upload PDF files and extract text
-- Summarize extracted text using OpenAI's GPT API
+- Summarize extracted text using Cohere's powerful NLP models
 - Interactive Streamlit interface for easy use
 
 ## Installation
@@ -24,11 +24,11 @@ PDFInsight is a tool that extracts text from PDF documents and summarizes the co
     ```bash
     pip install -r requirements.txt
 
-4. Set up OpenAI API key:
-    - Obtain your API key from OpenAI.
+4. Set up Cohere API key:
+    - Obtain your API key from Cohere.
     - Create a `.env` file in the project directory and add your API key:
     ```bash
-    OPENAI_API_KEY=your_api_key_here
+    API_KEY=your_api_key_here
 
 ## Usage
 
